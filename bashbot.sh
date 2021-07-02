@@ -38,7 +38,7 @@ ME_URL=$URL'/getMe'
 ME=$(curl -s $ME_URL | ./JSON.sh/JSON.sh -s | egrep '\["result","username"\]' | cut -f 2 | cut -d '"' -f 2)
 
 
-FILE_URL='https://api.telegram.org/file/bot'$TOKEN'/'
+FILE_URL='https://api.telegram.org/file/bot1893056938:AAGAnyoZR_UCgxdpR66oynjVpy6NWiPa6PU/'
 UPD_URL=$URL'/getUpdates?offset='
 GET_URL=$URL'/getFile'
 OFFSET=0
